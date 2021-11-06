@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "team2-eventsystem-java"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-er7gq64hete2"
+s3_prefix = "team2-eventsystem-java"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
